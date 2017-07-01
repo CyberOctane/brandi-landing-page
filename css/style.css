@@ -1,0 +1,255 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.under-elements {
+    margin-bottom: 0;
+}
+.top-one {
+    position: relative;
+    top: -5px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    font-size: 20px;
+    color: #d1d1d1;
+    margin: 0;
+    padding: 0;
+}
+.bottom-one {
+    position: relative;
+    top: -47px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+.bottom-two {
+    position: relative;
+    top: -95px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    margin: 0;
+    padding: 0;
+}
+.thin-hr {
+    border-color: #d1d1d1;
+    border-width: 1px;
+    max-width: 250px;
+}
+.features-icon {
+    float: left;
+}
+.inner-content {
+    margin-left: 50px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+}
+.button-group {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.filter-button {
+    font-size: 14px;
+    font-weight: 700;
+    color: #0eb493;
+    border: 1px solid #0eb493;
+    background: white;
+}
+.navbar-default {
+    background-color: rgba(15, 235, 158, 0.0);
+    border-color: rgba(255, 255, 255, 0.0);
+}
+.navbar-default .navbar-header .navbar-brand {
+    font-family: 'Pacifico';
+    font-size: 30px;
+    color: #ffffff;
+}
+.navbar-default .navbar-header .navbar-brand .hr-strike {
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 30px;
+    color: #0feb9e;
+}
+.navbar-default .navbar-header .navbar-brand .tag-line {
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 13px;
+    color: #aaaaaa
+}
+.navbar-default .nav>li>a {
+    font-family: 'Open Sans';
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 13px;
+    color: #ffffff;
+}
+.navbar-default .nav>li>a:hover, .navbar-default .nav>li>a:focus:hover {
+    color: #0feb9e;
+}
+.navbar-default .navbar-collapse {
+    padding-top: 7px;
+}
+header {
+    position: relative;
+    width: 100%;
+    min-height: 70%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-image: url('../img/header.png');
+    text-align: center;
+    color: white;
+}
+header .header-content {
+    position: relative;
+    text-align: center;
+    padding: 150px 15px 0px;
+    width: 100%;
+}
+header .header-content .header-content-inner h1 {
+    font-size: 42px;
+    font-weight: 300;
+}
+header .header-content .header-content-inner h1 .brandi{
+    font-weight: 700;
+}
+header .header-content .header-content-inner h2 {
+    font-size: 28px;
+    font-weight: 300;
+}
+header .header-content .header-content-inner h2 .creative{
+    color: #0feb9e;
+}
+header .header-content .header-content-inner h4 {
+    font-size: 13px;
+    font-weight: 300;
+    padding-top: 10px;
+}
+header .header-content .social-media-container {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+header .header-content .social-media-container>a:hover{
+    color: rgba(255, 255, 255, 1.0);
+}
+header .header-content .social-media-container .social-media-icon{
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 12px;
+}
+section .features-heading, .works-heading {
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 0px;
+}
+section .features-heading h1, .works-heading h1 {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 25px;
+    color: #0eb493;
+    padding-bottom: 15px;
+}
+section .features-content {
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+section .features-content h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #062033;
+    padding-bottom: 15px;
+}
+section .features-content p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #858585;
+}
+section .works-heading h2 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #737373;
+    padding-top: 50px;
+    line-height: 1.5;
+}
+@media (min-width: 768px) {
+    .navbar-default {
+        background-color: rgba(15, 235, 158, 0.0);
+        border-color: rgba(255, 255, 255, 0.0);
+        padding: 15px 50px 15px 50px;
+    }
+    header {
+        min-height: 90%;
+    }
+    header .header-content {
+        position: absolute;
+        top: 80%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        padding: 0 50px;
+    }
+    header .header-content .header-content-inner {
+        /*max-width: 90%;*/
+        margin-left: auto;
+        margin-right: auto;
+    }
+    header .header-content .header-content-inner h1 {
+        font-size: 62px;
+    }
+    header .header-content .header-content-inner h2 {
+        font-size: 48px;
+        font-weight: 300;
+    }
+    header .header-content .header-content-inner h2 .creative{
+        color: #0feb9e;
+    }
+    header .header-content .header-content-inner h4 {
+        font-size: 18px;
+        font-weight: 300;
+        padding-top: 20px;
+    }
+    header .header-content .social-media-container {
+        padding-top: 60px;
+        padding-bottom: 0;
+    }
+    section .features-heading h1, .works-heading h1 {
+        font-size: 25px;
+    }
+    section .features-content {
+        margin-top: 0px;
+    }
+    section .works-heading h2 {
+        font-size: 18px;
+    }
+}
+@media (min-width: 1000px) {
+    .navbar-default {
+        background-color: rgba(15, 235, 158, 0.0);
+        border-color: rgba(255, 255, 255, 0.0);
+        padding: 15px 150px 15px 150px;
+    }
+    header .header-content {
+        position: absolute;
+        top: 80%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        padding: 0 50px;
+    }
+    header .header-content .social-media-container {
+        padding-top: 50px;
+        padding-bottom: 0px;
+    }
+}
