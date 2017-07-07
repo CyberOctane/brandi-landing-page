@@ -1,3 +1,8 @@
+/*!
+ * Brandi Landing Page (https://github.com/murkyapes/brandi-landing-page)
+ * Copyright 2017 MurkyApes
+ * Licensed under MIT (https://github.com/murkyapes/brandi-landing-page/blob/master/LICENSE)
+ */
 html,
 body {
     height: 100%;
@@ -103,7 +108,7 @@ h1, h2, h3, h4, h5, h6 {
 header {
     position: relative;
     width: 100%;
-    min-height: 70%;
+    min-height: 80vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -116,7 +121,8 @@ header {
 header .header-content {
     position: relative;
     text-align: center;
-    padding: 150px 15px 0px;
+    top: 40vh;
+    /*padding: 150px 15px 0px;*/
     width: 100%;
 }
 header .header-content .header-content-inner h1 {
@@ -186,15 +192,15 @@ section .works-heading h2 {
 @media (min-width: 768px) {
     .navbar-default {
         background-color: rgba(15, 235, 158, 0.0);
-        border-color: rgba(255, 255, 255, 0.0);
+        border-color: rgba(255, 255, 255, 0.2);
         padding: 15px 50px 15px 50px;
     }
     header {
-        min-height: 90%;
+        min-height: 90vh;
     }
     header .header-content {
-        position: absolute;
-        top: 80%;
+        position: relative;
+        top: 65vh;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
@@ -232,24 +238,5 @@ section .works-heading h2 {
     }
     section .works-heading h2 {
         font-size: 18px;
-    }
-}
-@media (min-width: 1000px) {
-    .navbar-default {
-        background-color: rgba(15, 235, 158, 0.0);
-        border-color: rgba(255, 255, 255, 0.0);
-        padding: 15px 150px 15px 150px;
-    }
-    header .header-content {
-        position: absolute;
-        top: 80%;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-        padding: 0 50px;
-    }
-    header .header-content .social-media-container {
-        padding-top: 50px;
-        padding-bottom: 0px;
     }
 }
